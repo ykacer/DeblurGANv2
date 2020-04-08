@@ -98,4 +98,5 @@ def main(img_pattern: str,
 
 
 if __name__ == '__main__':
+    os.chdir(os.path.dirname(__file__))
     Fire(main)
